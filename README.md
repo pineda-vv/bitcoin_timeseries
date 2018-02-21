@@ -15,7 +15,7 @@ Finally, I chose these two exchange rates because their rate fluctuations are to
 ### Modeling
 I used the Autoregressive Integrated Moving Average (ARIMA) model in both exchange rate data.  To use ARIMA, I had to transform each dataset to obtain a stationary time series. In the case of the Peso data, I obtained a stationary time series by a simple differencing step. Using the Augmented Dickey-Fuller Test for stationarity, the p-values were as follows.
 |Transformation | ADF p-value |
-|:---:|:---:|
+|:-------------:|:-----------:|
 |None|50.2|
 |Differenced(1)|2.7e-10|
 |Differenced(2)|9.2e-08|
