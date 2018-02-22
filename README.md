@@ -1,4 +1,4 @@
-## A Repo for time series analysis of Bitcoin Price
+## Time series analysis and Currency Predictive Analytics 
 ---
 ### Goal
 To understand the intricacies of using ARIMA (Autoregressive Integrated Moving Average) and implement a model that can be used to forecast the future prices of two forms of currency - the Phillippine Peso and Bitcoin - against the US Dollar.
