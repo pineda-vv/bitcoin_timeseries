@@ -44,16 +44,15 @@ For the bitcoin data, the huge price increase at the most recent time periods re
 |Log-transformed|0.99|
 |Log-transformed Differenced (1)|3.0e-18|
 |Log-Transformed Differenced (2)|2.07e-05|
-|
 ---
 **Autocorrelation and Partial Autocorrelation Plots**
 **Bitcoin Log-Transformed and Second-order Differenced Data**
-![](data/bitcoin_acf.png)
+![](data/bitcoin_acf.png) |
 ![](data/bitcoin_pacf.png)
 ---
 ##### **ARIMA(p, d, q) value selection**
 ---
-###### The PACF and ACF plots suggest that an AR(2) and MA(1) model is appropriate. Based on the augmented Dickey-Fuller analysis of the log-transformed data, stationarity is achieved at both first and second-order differencing. I therefore tried an ARIMA(1,1,1) initially. However, upon further analysis, an ARIMA(1,2,1) model yielded a lower Akaike Information Criteria (AIC) score and had better cross-validation performance.
+##### The PACF and ACF plots suggest that an AR(2) and MA(1) model is appropriate. Based on the augmented Dickey-Fuller analysis of the log-transformed data, stationarity is achieved at both first and second-order differencing. I therefore tried an ARIMA(1,1,1) initially. However, upon further analysis, an ARIMA(1,2,1) model yielded a lower Akaike Information Criteria (AIC) score and had better cross-validation performance.
 ---
 #### Validation
 **Bitcoin ARIMA model Validation** The same validation was done with the Philippine Peso data and can be viewed in the accompanying Jupyter Notebook.
