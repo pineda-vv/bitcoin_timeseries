@@ -45,8 +45,9 @@ For the bitcoin data, the huge price increase at the most recent time periods re
 |Log-transformed Differenced (1)|3.0e-18|
 |Log-Transformed Differenced (2)|2.07e-05|
 ---
-**Autocorrelation and Partial Autocorrelation Plots**
-**Bitcoin Log-Transformed and Second-order Differenced Data**
+#### **Autocorrelation and Partial Autocorrelation Plots**
+---
+##### Bitcoin Log-Transformed and Second-order Differenced Data
 ![](data/bitcoin_acf.png) |
 ![](data/bitcoin_pacf.png)
 ---
